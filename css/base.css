@@ -1,0 +1,23 @@
+body{
+font-family:'Open Sans','Arial'; 
+color: #777;
+}
+div.hk-header{
+font-size: 3em;
+}
+.hk-center{
+text-align: center;
+}
+.hk-pointer{
+cursor:pointer;
+}
+.hk-tpadding10{
+padding-top:10px;
+}
+.fa.hk-hover:hover{
+color:#000;
+}
+.hk-link{
+color: #777;
+text-decoration:none;
+}
