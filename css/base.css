@@ -1,9 +1,31 @@
+@font-face{
+font-family:'Oswald';
+src:url('../fonts/oswald-regular-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-regular-webfont.woff') format('woff'),url('../fonts/oswald-regular-webfont.ttf') format('truetype'),url('../fonts/oswald-regular-webfont.svg') format('svg');
+}
+@font-face{
+font-family:'Oswald-Bold';
+src:url('../fonts/oswald-bold-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-bold-webfont.woff') format('woff'),url('../fonts/oswald-bold-webfont.ttf') format('truetype'),url('../fonts/oswald-bold-webfont.svg') format('svg');
+}
+@font-face{
+font-family:'Oswald-Light';
+src:url('../fonts/oswald-light-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-light-webfont.woff') format('woff'),url('../fonts/oswald-light-webfont.ttf') format('truetype'),url('../fonts/oswald-light-webfont.svg') format('svg');
+}
+@font-face{
+font-family:'Oswald-Stencil';
+src:url('../fonts/oswald-stencil-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-stencil-webfont.woff') format('woff'),url('../fonts/oswald-stencil-webfont.ttf') format('truetype'),url('../fonts/oswald-stencil-webfont.svg') format('svg');
+}
 body{
-font-family:'Open Sans','Arial'; 
-color: #777;
+font-family:'Oswald','Open Sans','Arial'; 
+color: #FFF;
+background: #8FD4DD;
 }
 div.hk-header{
-font-size: 3em;
+font-size: 5em;
+text-shadow: 2px 1px #9B9B9B
+}
+.hk-cs-msg{
+font-family:'Oswald-Light','Open Sans','Arial';
+font-size: 1.5em; 
 }
 .hk-center{
 text-align: center;
@@ -11,13 +33,22 @@ text-align: center;
 .hk-pointer{
 cursor:pointer;
 }
+.hk-social-links{
+font-size: 1.5em;
+padding:10px; 
+}
+.hk-social-links a{
+padding:10px;
+}
 .hk-tpadding10{
 padding-top:10px;
 }
 .fa.hk-hover:hover{
-color:#000;
+color:#7E7E7E;
+text-shadow:none;
 }
 .hk-link{
-color: #777;
-text-decoration:none;
+color: #FFF;
+text-decoration: none;
+text-shadow: 1px 1px #7E7E7E;
 }
