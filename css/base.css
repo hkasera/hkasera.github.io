@@ -52,3 +52,8 @@ color: #FFF;
 text-decoration: none;
 text-shadow: 1px 1px #7E7E7E;
 }
+@media only screen and (max-width: 960px) {
+div.hk-header{
+font-size: 50px;
+}
+}
