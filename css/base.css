@@ -4,18 +4,8 @@
 }
 
 @font-face {
-    font-family:'Oswald-Bold';
-src:url('../fonts/oswald-bold-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-bold-webfont.woff') format('woff'),url('../fonts/oswald-bold-webfont.ttf') format('truetype'),url('../fonts/oswald-bold-webfont.svg') format('svg');
-}
-
-@font-face {
     font-family:'Oswald-Light';
 src:url('../fonts/oswald-light-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-light-webfont.woff') format('woff'),url('../fonts/oswald-light-webfont.ttf') format('truetype'),url('../fonts/oswald-light-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family:'Oswald-Stencil';
-src:url('../fonts/oswald-stencil-webfont.eot') format('embedded-opentype'),url('../fonts/oswald-stencil-webfont.woff') format('woff'),url('../fonts/oswald-stencil-webfont.ttf') format('truetype'),url('../fonts/oswald-stencil-webfont.svg') format('svg');
 }
 
 body {
@@ -29,6 +19,9 @@ body,h1 {
     padding: 0;
 }
 
+hr{
+	border-style: dotted;
+}
 div.hk-header {
     font-size: 72px;
     text-shadow: 2px 1px #9B9B9B;
@@ -101,6 +94,9 @@ div.hk-header {
     font-family: 'Oswald-Light','Open Sans','Arial';
     vertical-align: middle;
     cursor: pointer;
+	-webkit-box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 .hk-cards a {
