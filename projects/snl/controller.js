@@ -161,7 +161,7 @@ transportApp.controller('BtnCtrl', function ($scope, $rootScope, $timeout) {
             }
         } else {
 
-            $rootScope.isLoadingText = "Player" + ($rootScope.currentPlayer + 1) + " cannot move";
+            $rootScope.isLoadingText = "Player " + ($rootScope.currentPlayer + 1) + " cannot move";
         }
 
         $scope.diceValues = [-1, -1];
