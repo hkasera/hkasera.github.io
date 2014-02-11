@@ -32,25 +32,13 @@
   <div class="bg-loader" ng-show="isLoading"></div>
 <div class="loader-cont" ng-show="isLoading"><div class="loader-content">{{isLoadingText}}</div></div>
   <div ng-controller="BtnCtrl" class="ng-scope" ng-show="showBoard"> 
-    <!--<button ng-click="rollDice()">
-      Roll Dice
-    </button>
-    <div>
-      {{diceValues[0]}}
-    </div>
-    <div>
-      {{diceValues[1]}}
-    </div>
-    <button ng-click="makeMove(0)">
-      Make Move p1
-    </button>
-	<button ng-click="makeMove(1)">
-      Make Move p2
-    </button> -->
 	<button class="playGame" ng-click="startGame()" ng-hide="gameOver">
       Player {{currentPlayer+1}}'s turn
     </button>
 	<div ng-show="gameOver">Player {{winner}} won</div>
+	<div ng-show="gameOver"><button class="playGame" ng-click="replayGame()">
+      Replay
+    </button></div>
   </div>
   
   
