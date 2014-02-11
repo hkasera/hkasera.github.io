@@ -151,10 +151,10 @@ transportApp.controller('BtnCtrl', function ($scope, $rootScope,$timeout) {
             }
 		$rootScope.isLoadingText ="Player " + ($rootScope.currentPlayer+1) +"'s new position is "+ ($rootScope.players[player].currentPos+1) ;
 		if(newPos === 99){
-		console.log($rootScope.gameOver);
 			$rootScope.winner = $rootScope.currentPlayer+1 ;
 			$rootScope.gameOver = true;
 			$rootScope.isLoadingText ="Player " + ($rootScope.winner) +"wins";
+			$rootScope.isLoading = false;
 		}
         }
 		else {
@@ -175,7 +175,7 @@ transportApp.controller('BtnCtrl', function ($scope, $rootScope,$timeout) {
 			
 			$timeout(function(){$scope.makeMove($rootScope.currentPlayer);},2000);
 			
-			if(!$rootScope.gameOver){ $timeout(function(){$scope.changeCurrentPlayer();},3000); }
+			 $timeout(function(){if(!$rootScope.gameOver){$scope.changeCurrentPlayer();}},3000);
 			
 		
 		
