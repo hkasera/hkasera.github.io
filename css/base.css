@@ -36,4 +36,4 @@ html,body{margin:0;padding:0;height:100%;font-family: 'Oswald','Open Sans','Aria
 .intro{font-size:20px;}
 .intro{font-size:20px;margin-bottom:20px;}
 .hk-topic-content-title{font-size:20px;}
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .hk-topic-lcontent1{width:100px;} }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .hk-topic-lcontent1{width:110px;} }
