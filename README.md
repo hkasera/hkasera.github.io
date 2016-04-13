@@ -1,4 +1,6 @@
 hkasera.github.io
 =================
 
-Personal Website
+This is my personal website.
+
+Link to the repo : http://hkasera.github.io
